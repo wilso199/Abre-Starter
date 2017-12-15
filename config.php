@@ -30,7 +30,7 @@
 	$description="A simple Hello World starter app template.";
 	$version="0.0.1";
 	$repo="abreio/Abre-Starter";
-	$pageicon="event";
+	$pageicon="code";
 	$pagepath="starter";
 	require_once('permissions.php');
 ?>
