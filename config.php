@@ -25,7 +25,7 @@
 
 	$pageview=1;
 	$drawerhidden=1;
-	$pageorder=4;
+	$pageorder=10;
 	$pagetitle="Starter";
 	$description="A simple Hello World starter app template.";
 	$version="0.0.1";
