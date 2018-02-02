@@ -23,7 +23,7 @@
 
 	//Check for Admin Authentication
 	$drawerhidden = 1;
-	$pagerestrictions = "staff, students, parent";
+	$pagerestrictions = "";
 
 	if($_SESSION['usertype'] == 'staff'){
 		$drawerhidden=0;
