@@ -22,9 +22,28 @@
 
 	if(superadmin() && !file_exists("$portal_path_root/modules/Abre-Starter/setup.txt")){
 
+		//Check for guide_boards table
+		// require(dirname(__FILE__) . '/../../core/abre_dbconnect.php');
+		// if(!$db->query("SELECT * FROM guide_boards LIMIT 1"))
+		// {
+		// 	$sql = "CREATE TABLE `guide_boards` (`ID` int(11) NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
+		// 	$sql .= "ALTER TABLE `guide_boards` ADD PRIMARY KEY (`ID`);";
+		// 	$sql .= "ALTER TABLE `guide_boards` MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;";
+		// 	$db->multi_query($sql);
+		// }
+		// $db->close();
+
+		// require(dirname(__FILE__) . '/../../core/abre_dbconnect.php');
+		// if(!$db->query("SELECT Title FROM guide_boards LIMIT 1"))
+		// {
+		// 	$sql = "ALTER TABLE `guide_boards` ADD `Title` text NOT NULL;";
+		// 	$db->multi_query($sql);
+		// }
+		// $db->close();
+
 		//Write the Setup File
-		// $myfile = fopen("$portal_path_root/modules/Abre-Conduct/setup.txt", "w");
-		// fwrite($myfile, '');
-		// fclose($myfile);
+		$myfile = fopen("$portal_path_root/modules/Abre-Starter/setup.txt", "w");
+		fwrite($myfile, '');
+		fclose($myfile);
 	}
 ?>
