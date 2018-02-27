@@ -35,6 +35,7 @@
 			<h5>Buttons: </h5>
 			<a class='waves-effect waves-light btn' style='background-color: <?php echo getSiteColor() ?>'>button</a>
 			<a class='waves-effect waves-light btn-large' style='background-color:<?php echo getSiteColor() ?>; left:10px;'>Button</a>
+			<a class='btn-floating btn-large waves-effect waves-light' style='background-color:<?php echo getSiteColor() ?>; left:20px;'><i class='material-icons'>add</i></a>
 		</div>
 		<div class='row'>
 			<h5>Cards: </h5>
