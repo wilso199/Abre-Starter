@@ -41,14 +41,14 @@
 			<h5>Cards: </h5>
 			  <div class='mdl-card mdl-shadow--2dp card_stream hoverable' style='float:left;'>
 					<h4 class='center-align'>Centered Content</h4>
-          <div class="mdl-card__media mdl-color--grey-100 mdl-card--expand valign-wrapper cardclick pointer" style="height:200px; background-image: url(/core/images/abre_pattern.png); background-color: <?php echo getSiteColor() ?> !important; overflow:hidden;"></div>
+          <div class="mdl-card__media mdl-color--grey-100 mdl-card--expand valign-wrapper cardclick pointer" style="height:200px; background-image: url(/core/images/abre/abre_pattern.png); background-color: <?php echo getSiteColor() ?> !important; overflow:hidden;"></div>
 					<div class='mdl-card__actions'>
 						<a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='#' style='color:<?php echo getSiteColor() ?>;'>Link to Homepage</a>
 					</div>
 				</div>
 				<div class='mdl-card mdl-shadow--2dp card_stream hoverable' style='float:left;'>
 					<h4 class='center-align'>Centered Content</h4>
-					<div class='mdl-card__media mdl-color--grey-100 mdl-card--expand cardclick pointer' style='height:200px; background-image: url(/core/images/abre_pattern.png); background-color: <?php echo getSiteColor() ?> !important; overflow:hidden;'></div>
+					<div class='mdl-card__media mdl-color--grey-100 mdl-card--expand cardclick pointer' style='height:200px; background-image: url(/core/images/abre/abre_pattern.png); background-color: <?php echo getSiteColor() ?> !important; overflow:hidden;'></div>
 					<div class='mdl-card__actions'>
 						<a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='#' style='color:<?php echo getSiteColor() ?>;'>Link to Homepage</a>
 					</div>
