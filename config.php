@@ -28,7 +28,7 @@
 	$pageorder=10;
 	$pagetitle="Starter";
 	$description="A simple Hello World starter app template.";
-	$version="0.0.3";
+	$version="0.0.4";
 	$repo="abreio/Abre-Starter";
 	$pageicon="code";
 	$pagepath="starter";

@@ -28,18 +28,22 @@
 ?>
 
 <div id="startermodal" class="modal modal-fixed-footer modal-mobile-full">
-  <div class="modal-content">
-    <h4>Example Starter Modal</h4>
-    <a class="modal-close black-text" style='position:absolute; right:20px; top:25px;'><i class='material-icons'>clear</i></a>
-    <div class="row center-align">
-      <p id="infoHolder" style=""></p>
-    </div>
+  <div class="modal-content" style="padding: 0px !important;">
+		<div class="row" style='background-color: <?php echo getSiteColor(); ?>; padding: 24px;'>
+			<div class='col s11'><span class="truncate" style="color: #fff; font-weight: 500; font-size: 24px; line-height: 26px;">Example Starter Modal</span></div>
+			<div class='col s1 right-align'><a class="modal-close"><i class='material-icons' style='color: #fff;'>clear</i></a></div>
+		</div>
+		<div style='padding: 0px 24px 0px 24px;'>
+	    <div class="row center-align">
+	      <p id="infoHolder" style=""></p>
+	    </div>
+		</div>
   </div>
   <div class="modal-footer">
-    <div id ="footerButtonsDiv" style='display: inline-block; float:right'>
-      <button class="modal-close waves-effect btn-flat white-text" style='margin-left:5px; background-color: <?php echo getSiteColor(); ?>'>Close</button>
-      <a class="modal-action waves-effect btn-flat white-text" style='background-color: <?php echo getSiteColor(); ?>'>Button</a>
-    </div>
+	  <div id ="footerButtonsDiv" style='display: inline-block; float:right'>
+			<button class="modal-close waves-effect btn-flat white-text" style='margin-left:5px; background-color: <?php echo getSiteColor(); ?>'>Close</button>
+	    <a class="modal-action waves-effect btn-flat white-text" style='background-color: <?php echo getSiteColor(); ?>'>Button</a>
+	  </div>
   </div>
 </div>
 
