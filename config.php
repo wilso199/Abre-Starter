@@ -20,15 +20,18 @@
 	require_once(dirname(__FILE__) . '/../../core/abre_verification.php');
 	require(dirname(__FILE__) . '/../../core/abre_dbconnect.php');
 
-	//Check for installation
-	if(superadmin()){ require('installer.php'); }
+	if(superadmin()){
+		//Check for installation
+		activateApp("Abre-Starter");
+		require('installer.php');
+	}
 
 	$pageview=1;
 	$drawerhidden=1;
 	$pageorder=10;
 	$pagetitle="Starter";
 	$description="A simple Hello World starter app template.";
-	$version="0.0.4";
+	$version="0.0.5";
 	$repo="abreio/Abre-Starter";
 	$pageicon="code";
 	$pagepath="starter";
