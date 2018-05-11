@@ -20,8 +20,11 @@
 	require_once(dirname(__FILE__) . '/../../core/abre_verification.php');
 	require(dirname(__FILE__) . '/../../core/abre_dbconnect.php');
 
-	//Check for installation
-	if(superadmin()){ require('installer.php'); }
+	if(superadmin()){
+		//Check for installation
+		activateApp("Abre-Starter");
+		require('installer.php');
+	}
 
 	$pageview=1;
 	$drawerhidden=1;
